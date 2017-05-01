@@ -36,7 +36,7 @@ body {
 	font-family: Arial, sans-serif;
 	text-shadow: 0.5px 0.9px 1px rgba(0, 0, 0, 0.5);
 	color: white;
-	font-size: 11px;
+	font-size: 13px;
 	line-height: 40px;
 	border-left: transparent solid 1px;
 	border-right: transparent solid 1px;
@@ -71,7 +71,8 @@ body {
 .bar li:first-child{
 	border-top: none;
 }
-.bar li a {
+.bar li a {width: 236px;	
+	height: 39px;
 	display: inline-block;
 	text-decoration: none;
 	padding: 15px 0 14px 22px;
@@ -128,7 +129,7 @@ body {
 	text-decoration: none;
 	font-family: Arial, sans-serif;
 	color: #2c2c2c;
-	font-size: 11px;
+	font-size: 13px;
 	line-height: 40px;
 }
 .links-b li a:hover {
