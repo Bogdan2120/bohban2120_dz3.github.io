@@ -38,6 +38,8 @@ body {
 	color: white;
 	font-size: 11px;
 	line-height: 40px;
+	border-left: transparent solid 1px;
+	border-right: transparent solid 1px;
 }
 .links li a:hover {
 	border-left: #838383 solid 1px;
@@ -54,13 +56,13 @@ body {
 	margin: 40px 0 0 45px;
 }
 .sidebar {
-	display: block;
+	display: inline-block;
 	width: 236px;
 	height: 240px;
 	border: 1px solid #c8c8c8;
 }
 .bar li {
-	display: block;
+	display: inline-block;
 	width: 236px;	
 	height: 39px;
 	border-top: 1px solid #c8c8c8;
@@ -70,13 +72,14 @@ body {
 	border-top: none;
 }
 .bar li a {
-	display: block;
+	display: inline-block;
 	text-decoration: none;
 	padding: 15px 0 14px 22px;
 	color: #656363;
 }
 .bar li a:hover {
-	display: block;
+	display: inline-block;
+	width: 204px;
 	height: 11px;
 	padding: 15px 0 14px 32px;
 	background-color: #f9f9f9;
@@ -92,8 +95,8 @@ body {
 	border: 1px solid #c8c8c8;
 } 
 .img img{
-	display: block;
-	margin: 54px auto 0;
+	display: inline-block;
+	padding: 54px  0 0 98px;
 }
 .text{
 	margin-top: 40px;
@@ -118,13 +121,10 @@ body {
 }
 .links-b li {
 	display: inline-block;
-
-
 }
 .links-b li a {
 	display: inline-block;
-		padding: 0 20px;
-
+	padding: 0 20px;
 	text-decoration: none;
 	font-family: Arial, sans-serif;
 	color: #2c2c2c;
@@ -135,7 +135,7 @@ body {
 	text-decoration: underline;
 }
 .menu-bottom p{
-	display: block;
+	display: inline-block;
 	float: right;
 	padding: 15px 38px;
 	font-family: Arial, sans-serif;
